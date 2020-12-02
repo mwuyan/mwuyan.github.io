@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" 
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <nav class="navbar">
+        <div class="navbar_container" aria-label="navigation bar">
+            <a href="index.html" id="navbar_logo" aria-label="website logo">Matthew Wuyan</a>
+        </div>
+        <ul class="navbar_menu" aria-label="navigation menu">
+            <li class="navbar_item"><a href="index.html" class="navbar_page" id="active" aria-label="Work">Work</a></li>
+            <li class="navbar_item"><a href="about.html" class="navbar_page" aria-label="About">About</a></li>
+            <li class="navbar_item"><a href="ref/mwuyan-resume.pdf" class="navbar_page" target="_blank" aria-label="Resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <div class="main" aria-label="main content">
+        <div class="main_container">
+            <div class="main_content" aria-label="introduction">
+                <h1>Hello, I'm Matthew &#128522;</h1>
+                <h2>Welcome to my website! I'm currently <br>a junior 
+                    at Northwestern University <br>majoring in computer science.</h2>
+            </div>
+            <div class="portrait_container">
+                <img src="ref/crane.png" alt="Image of orgami crane" id="portrait">
+            </div>
+            <div class="down_arrow" aria-labelledby="Downwards arrow">
+                <a href="#p1"><i class="material-icons">expand_more</i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-container">
+        <div class="project" id="p1" aria-label="project one">
+            <h3>SUPERNOVA TECHNOLOGY</h3>
+            <h2>Internship Project - media redesign</h2>
+            <div class="proj_container">
+                <a href="project.html">
+                    <img class="proj_img" src="ref/project1.png" alt="Image of media handout designs">
+                </a>
+            </div>
+            <p><a href="project.html">See More &rarr;</a></p>
+        </div>
+    
+        <div class="project" id="p2" aria-label="project two">
+            <h3>NORTHWESTERN UNIVERISTY</h3>
+            <h2>Class Project - music player design</h2>
+            <div class="proj_container">
+                <img class="proj_img" src="ref/project2.png" alt="Image of music player designs">
+            </div>
+        </div>
+    
+        <div class="footer" aria-label="footer">
+            <a href="https://www.linkedin.com/in/matthewwuyan/" class="fa fa-linkedin" target="_blank" aria-labelledby="Linkedin icon"></a>
+            <a href="mailto: matthewwuyan2022@northwestern.edu" class="fa fa-google" aria-labelledby="Google icon"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" aria-labelledby="Instagram icon"></a>
+        </div>
+    </div>
+</body>
+</html>
